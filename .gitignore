@@ -1,0 +1,51 @@
+﻿# Python environments
+cv_env/
+.venv/
+venv/
+env/
+
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training data and generated experiment runs
+training/
+runs/
+wandb/
+mlruns/
+
+# Model weights and checkpoints (store/download these outside Git)
+models/*.pt
+models/*.pth
+models/*.onnx
+*.pt
+*.pth
+*.onnx
+
+# Input, output, and temporary media files
+input_videos/*
+output_videos/*
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Generated tracking/camera cache
+stubs/*.pkl
+*.pickle
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
